@@ -1,4 +1,5 @@
 @echo off
+cd /d "%~DP0"
 
 if not defined GIT (set GIT=git)
 if not defined PYTHON (set PYTHON=python)

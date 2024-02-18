@@ -15,7 +15,7 @@ echo activating venv %VENV_DIR%
 set PYTHON="%VENV_DIR%\Scripts\python.exe"
 
 :launch
-%PYTHON% scripts\train_ui.py
+%PYTHON% scripts\test.py
 
 :end
 pause
